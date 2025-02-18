@@ -1,0 +1,19 @@
+{
+  "name": "js-node-template",
+  "version": "1.0.0",
+  "description": "CIS 177 Node Template",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swic-web-development/js-node-template.git"
+  },
+  "author": "CodeFinity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swic-web-development/js-node-template/issues"
+  },
+  "homepage": "https://github.com/swic-web-development/js-node-template#readme"
+}
