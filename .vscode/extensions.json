@@ -1,14 +1,12 @@
 {
   "recommendations": [
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
-    "usernamehw.errorlens",
-    "vivaxy.vscode-conventional-commits",
     "aaron-bond.better-comments",
-    "streetsidesoftware.code-spell-checker",
-    "mkaufman.htmlhint",
+    "biomejs.biome",
     "ms-vsliveshare.vsliveshare",
     "pkief.material-icon-theme",
-    "tyriar.sort-lines"
+    "streetsidesoftware.code-spell-checker",
+    "tyriar.sort-lines",
+    "usernamehw.errorlens",
+    "vivaxy.vscode-conventional-commits"
   ]
 }
