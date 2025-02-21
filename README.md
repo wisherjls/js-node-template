@@ -10,11 +10,13 @@ Welcome to the JS Node Template! This guide will help you get started with the p
 
 1. **Clone the repository:**
 
-```sh
-# Make sure you are in a directory such as `Dev` and not inside an existing repository!
-gh repo clone swic-web-development/js-node-template
-cd js-node-template
-```
+   Make sure you have used the previously supplied link for GitHub Classroom. The repository should reflect your GitHub username on the GitHub website. Then, you can proceed with the following steps:
+
+   ```sh
+   # Make sure you are in a directory such as `Dev` and not inside an existing repository!
+   gh repo clone YOUR_GITHUB_USERNAME/js-node-template
+   cd js-node-template
+   ```
 
 2. **Install dependencies:**
 
