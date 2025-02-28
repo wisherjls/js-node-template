@@ -10,3 +10,9 @@ function formatUsername(firstName, lastName) {
 	return `${lastName}, ${firstName}`;
 }
 console.log(formatUsername("John", "Doe")); // Should print: "Doe, John"
+
+// Function to combine two strings with a space
+function combineStrings(str1, str2) {
+	return `${str1} ${str2}`;
+}
+console.log(combineStrings("Hello", "World")); // Should print: "Hello World"
