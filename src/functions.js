@@ -23,3 +23,10 @@ function calculateCartTotal(cart) {
 }
 const cart = { price: 100, tax: 0.07 };
 console.log(calculateCartTotal(cart)); // Should print: 107
+
+// Function to format a full name
+function buildFullName(nameInfo) {
+	return `${nameInfo.firstName} ${nameInfo.lastName}`;
+}
+const nameInfo = { firstName: "John", lastName: "Doe" };
+console.log(buildFullName(nameInfo)); // Should print: "John Doe"
