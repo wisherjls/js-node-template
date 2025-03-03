@@ -25,3 +25,44 @@ const favoritegames = ["Zelda", "portal", "gmod", "doom", "halo"]; //array of so
 for (let i = 0; i < favoritegames.length; i++) {
 	console.log(favoritegames[i]); // Output each game to the console
 }
+
+//Exercise 3: Working with Objects in Arrays
+
+// array of players stats
+const players = [
+	{ name: "jon", kills: 10, deaths: 5 },
+	{ name: "wisher", kills: 5, deaths: 10 },
+	{ name: "swampy16", kills: 15, deaths: 3 },
+];
+// Using a for loop to iterate through the array
+for (let i = 0; i < players.length; i++) {
+	console.log(players[i]); // Output each player to the console
+}
+
+//Calculatee the kd ratio
+for (let i = 0; i < players.length; i++) {
+	const player = players[i];
+	const kdRatio = (player.kills / Math.max(1, player.deaths)).toFixed(2);
+	// Calculate kill/death ratio, using Math.max to avoid devideing by zero
+
+	console.log(
+		`${player.name}: ${player.kills} kills, ${player.deaths} deaths, ${kdRatio} kd ratio`,
+	);
+}
+
+// Find the player with the best K/D ratio
+let bestPlayer = players[0];
+// Loop through the rest of the players
+for (let i = 1; i < players.length; i++) {
+	// Compare current player's K/D ratio with the best so far than updates the best player
+	if (
+		players[i].kills / Math.max(1, players[i].deaths) >
+		bestPlayer.kills / Math.max(1, bestPlayer.deaths)
+	) {
+		bestPlayer = players[i];
+	}
+}
+// Output the player with the best K/D ratio
+console.log(
+	`Best K/D Ratio: ${bestPlayer.name} with K/D ratio of ${(bestPlayer.kills / Math.max(1, bestPlayer.deaths)).toFixed(2)}`,
+);
