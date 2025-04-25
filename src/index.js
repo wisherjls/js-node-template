@@ -1,6 +1,4 @@
-//then
-const starwars = fetch("https://www.swapi.tech/api/people/1")
-	.then((response) => response.json())
-	.then((data) => {
-		console.log(data);
-	});
+//await
+const starwarsresponse = await fetch("https://www.swapi.tech/api/people/1");
+const starwarsdata = await starwarsresponse.json();
+console.log(starwarsdata);
